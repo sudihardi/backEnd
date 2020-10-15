@@ -9,4 +9,9 @@ app.delete("/mahasiswa", (req, res) => {
     res.send(OK)
 });
 
+app.delete("/mahasiswa/all", (req, res) => {
+    db.removeAll()
+    res.send(OK)
+});
+
 module.exports = app

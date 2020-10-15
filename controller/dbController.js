@@ -42,6 +42,12 @@ function remove(id) {
     .remove({ id: parsedId})
     .write()
 }
+
+function removeAll() {
+   db.get('mahasiswa')
+        .remove({})
+        .write()
+}
 // TODO 1. comment out all the route handler inside their file EXECPT the GET handler
 // TODO 5. export all of created function by exporting an object
 const functions = {
@@ -49,6 +55,7 @@ const functions = {
     get,
     add,
     edit,
-    remove
+    remove,
+    removeAll
 }
 module.exports = functions

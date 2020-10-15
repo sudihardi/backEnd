@@ -1,0 +1,14 @@
+{
+  "mahasiswa": [
+    {
+      "id": 1,
+      "nama": "Karina",
+      "jurusan": "Communication"
+    },
+    {
+      "id": 1,
+      "nama": "Chou",
+      "jurusan": "Communication"
+    }
+  ]
+}
